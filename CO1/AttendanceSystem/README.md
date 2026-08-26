@@ -6,6 +6,7 @@ To develop a Python-based parking management system that manages parking slots, 
 
 
 **2. Input**
+
 **The program accepts**:
 Menu choice
 Vehicle number
@@ -20,6 +21,7 @@ The menu options are:
 
 
 **3. Output**
+
 **The program displays:**
 
 Assigned parking slot for a vehicle
@@ -37,6 +39,7 @@ Parking Charge = Parking Hours × Rate Per Hour
 
 
 **4. Algorithm**
+
 Start.
 
 Set the total number of parking slots to 100.
@@ -47,6 +50,7 @@ Display the parking system menu.
 
 Read the user's choice.
 
+
 **If the choice is 1**:
 
 Check whether all parking slots are occupied.
@@ -56,12 +60,14 @@ Search for the first available parking slot.
 Store the vehicle number in the available slot.
 Display the assigned slot number.
 
+
 **If the choice is 2:**
 
 Check whether the parking area is empty.
 If empty, display an appropriate message.
 Otherwise, display the slot number and vehicle number of all parked vehicles.
 Calculate and display the number of available slots.
+
 
 **If the choice is 3:**
 
@@ -76,6 +82,7 @@ Display the parking bill.
 Remove the vehicle from the parking dictionary.
 Display that the slot is now available.
 If the vehicle is not found, display an appropriate message.
+
 
 **If the choice is 4:**
 
