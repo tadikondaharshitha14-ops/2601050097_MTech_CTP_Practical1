@@ -1,6 +1,9 @@
 **Parking Management System**
+
+
 **1. Objective**
 To develop a Python-based parking management system that manages parking slots, stores vehicle details, displays occupied and available slots, and calculates parking charges when a vehicle is removed.
+
 
 **2. Input**
 **The program accepts**:
@@ -14,6 +17,8 @@ The menu options are:
 2 – Show Parking
 3 – Remove Vehicle & Calculate Charge
 4 – Exit
+
+
 **3. Output**
 **The program displays:**
 
@@ -29,6 +34,7 @@ Program termination message
 The parking charge is calculated using:
 
 Parking Charge = Parking Hours × Rate Per Hour
+
 
 **4. Algorithm**
 Start.
@@ -49,12 +55,14 @@ Otherwise, read the vehicle number.
 Search for the first available parking slot.
 Store the vehicle number in the available slot.
 Display the assigned slot number.
+
 **If the choice is 2:**
 
 Check whether the parking area is empty.
 If empty, display an appropriate message.
 Otherwise, display the slot number and vehicle number of all parked vehicles.
 Calculate and display the number of available slots.
+
 **If the choice is 3:**
 
 Read the vehicle number to be removed.
@@ -68,6 +76,7 @@ Display the parking bill.
 Remove the vehicle from the parking dictionary.
 Display that the slot is now available.
 If the vehicle is not found, display an appropriate message.
+
 **If the choice is 4:**
 
 Display the program termination message.
@@ -77,6 +86,7 @@ If the user enters an invalid choice, display an appropriate error message.
 Repeat the menu until the user chooses the Exit option.
 
 Stop.
+
 
 **5. Time Complexity**
 O(n)
