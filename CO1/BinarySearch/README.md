@@ -1,39 +1,64 @@
-**Objective**
+**Library Book Search System**
 
-To find whether book number 75,000 exists among 10,00,000 books arranged in increasing order and, if it exists, determine its location using Binary Search.
 
-**Algorithm:**
+**1. Objective**
+
+To develop a Python-based library book search system that searches for a particular book from 10,00,000 books arranged in increasing order of book number and determines whether the required book exists and, if it exists, identifies its location.
+
+
+**2. Input**
+
+**The program accepts:**
+
+Total number of books
+Book numbers arranged in increasing order
+Book number to be searched
+
+For this problem:
+Total number of books = 10,00,000
+Book number to be searched = 75,000
+
+
+**3. Output**
+
+**The program displays:**
+
+Whether the required book exists or not
+The book number if it exists
+The location/position of the book if it exists
+
+
+**4. Algorithm**
 
 Start.
+Set the total number of books to 10,00,000.
+Set the book number to be searched as 75,000.
 Set low = 1 and high = 10,00,000.
-
-Set the target book number as 75000.
-
-Find the middle position using: mid = (low + high) // 2
-
-Compare the book number at mid with 75000.
-
-If it is equal to 75000, the book is found. Display its location.
-
-If it is less than 75000, search the right half by setting low = mid + 1.
-
-If it is greater than 75000, search the left half by setting high = mid - 1.
-
-Repeat steps 4–8 until the book is found or low > high.
-
-If low > high, display that the book does not exist.
-
+Find the middle position using:
+Middle = (Low + High) // 2
+Compare the middle book number with the required book number.
+If the middle book number is equal to 75,000:
+The book exists.
+Display the book number and its location.
+If the required book number is smaller than the middle book number:
+Search in the left half.
+Set high = mid - 1.
+If the required book number is greater than the middle book number:
+Search in the right half.
+Set low = mid + 1.
+Repeat the search until the book is found or low > high.
+If low > high, display "Book does not exist."
 Stop.
 
-Input
-Number of books = 10,00,000 Books = 1, 2, 3, 4, ..., 10,00,000 Book to be searched = 75,000
 
-Output
-Book 75000 exists. Book location: Position 75000
+**5. Time Complexity**
 
-Time Complexity
-Best Case: O(1) Average Case: O(log n) Worst Case: O(log n)
+O(log n)
 
-Space Complexity: O(1)
+Where n is the number of books.
 
-For 10,00,000 books, Binary Search requires at most approximately 20 comparisons.
+Since the books are arranged in increasing order, Binary Search is used. In each step, the search area is reduced by half.
+
+For 10,00,000 books, Binary Search requires approximately 20 comparisons in the worst case.
+
+Therefore, the overall time complexity is O(log n).
