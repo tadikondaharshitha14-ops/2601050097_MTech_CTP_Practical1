@@ -29,7 +29,8 @@ The menu options are:
 6 – Calculate GST
 7 – Display Final Bill
 8 – Exit
-3. Output
+
+**3. Output**
 
 The program displays:
 
@@ -53,6 +54,7 @@ Amount After Discount = Subtotal − Discount Amount
 GST Amount = Amount After Discount × GST Percentage / 100
 
 Final Bill = Amount After Discount + GST Amount
+
 
 **4. Algorithm**
 
