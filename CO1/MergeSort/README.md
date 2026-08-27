@@ -11,36 +11,54 @@ For this problem, a student is eligible for a scholarship if the student scores 
 
 **The program accepts:**
 
-Number of students
-Student name
-Student marks
-Scholarship eligibility mark
+1.Number of students
+
+2.Student name
+
+3.Student marks
+
+4.Scholarship eligibility mark
 
 **3. Output**
 
 **The program displays:**
 
-List of students sorted in descending order of marks
-Student names and their marks
-Students eligible for the scholarship
+1.List of students sorted in descending order of marks
+
+2.Student names and their marks
+
+3.Students eligible for the scholarship
 
 
 **4. Algorithm**
 
-Start.
-Create a list to store student names and marks.
-Read the number of students.
-For each student:
+1.Start.
+
+2.Create a list to store student names and marks.
+
+3.Read the number of students.
+
+4.For each student:
+
 Read the student's name.
+
 Read the student's marks.
-Store the name and marks in the list.
-Sort the list of students in descending order of marks.
-Display all students with their marks after sorting.
-Set the scholarship eligibility mark to 80.
-Check each student's marks.
-If a student's marks are greater than or equal to 80, select the student for the scholarship.
-Display the list of scholarship-eligible students.
-Stop.
+
+5.Store the name and marks in the list.
+
+6.Sort the list of students in descending order of marks.
+
+7.Display all students with their marks after sorting.
+
+8.Set the scholarship eligibility mark to 80.
+
+9.Check each student's marks.
+
+10.If a student's marks are greater than or equal to 80, select the student for the scholarship.
+
+11.Display the list of scholarship-eligible students.
+
+12.Stop.
 
 
 **5. Time Complexity**
