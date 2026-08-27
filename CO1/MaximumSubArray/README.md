@@ -13,7 +13,9 @@ The system uses the Maximum Subarray algorithm (Kadane's Algorithm) to find the 
 **The program accepts:**
 
 Number of days
+
 Daily profit or loss for each day
+
 Here, each value represents the profit or loss for one day.
 
 
@@ -22,7 +24,9 @@ Here, each value represents the profit or loss for one day.
 **The program displays:**
 
 Daily profit/loss values
+
 Maximum continuous profit
+
 The continuous period that produces the maximum profit
 
 
