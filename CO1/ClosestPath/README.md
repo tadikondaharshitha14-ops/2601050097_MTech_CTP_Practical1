@@ -12,10 +12,15 @@ The system calculates the distance between the customer and each available taxi 
 **The program accepts:**
 
 Customer's location (x, y)
+
 Number of available taxis
+
 Taxi name
+
 Location of each taxi (x, y)
+
 The distance between two points is calculated using:
+
 Distance = √((x₂ - x₁)² + (y₂ - y₁)²)
 
 
@@ -24,7 +29,9 @@ Distance = √((x₂ - x₁)² + (y₂ - y₁)²)
 **The program displays:**
 
 Distance between the customer and each taxi
+
 Name of the nearest taxi
+
 Distance of the nearest taxi from the customer
 
 
