@@ -9,12 +9,19 @@ To develop a Python-based Online Shopping System that allows users to manage pro
 **2. Input**
 
 **The program accepts:**
+
 Product name
+
 Product price
+
 Product quantity
+
 Product to be removed
+
 Updated product quantity
+
 Discount percentage
+
 GST percentage
 
 **Menu choice**
@@ -22,12 +29,19 @@ GST percentage
 The menu options are:
 
 1 – Add Product
+
 2 – Remove Product
+
 3 – Change Quantity
+
 4 – Apply Discount
+
 5 – Calculate Subtotal
+
 6 – Calculate GST
+
 7 – Display Final Bill
+
 8 – Exit
 
 **3. Output**
@@ -35,12 +49,19 @@ The menu options are:
 The program displays:
 
 Products added to the shopping cart
+
 Products removed from the cart
+
 Updated product quantities
+
 Subtotal amount
+
 Discount amount
+
 GST amount
+
 Final payable amount
+
 Complete shopping bill
 
 The calculations are performed using:
@@ -58,11 +79,11 @@ Final Bill = Amount After Discount + GST Amount
 
 **4. Algorithm**
 
-Start.
+1.Start.
 
-Create an empty shopping cart to store product details.
+2.Create an empty shopping cart to store product details.
 
-Display the online shopping system menu.
+3.Display the online shopping system menu.
 
 **Read the user's choice.**
 
@@ -124,14 +145,15 @@ Display the final payable amount.
 
 **If the choice is 8:**
 
-Display the exit message.
-Stop the program.
+4.Display the exit message.
 
-If an invalid choice is entered, display an appropriate error message.
+5.Stop the program.
 
-Repeat the menu until the user chooses the Exit option.
+6.If an invalid choice is entered, display an appropriate error message.
 
-Stop.
+7.Repeat the menu until the user chooses the Exit option.
+
+8.Stop.
 
 
 **5. Time Complexity**
