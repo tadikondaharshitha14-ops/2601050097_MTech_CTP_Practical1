@@ -153,7 +153,7 @@ If an invalid choice is entered, display an appropriate error message.
 
 Repeat the menu until the user chooses the Exit option.
 
-5.Stop.
+4.Stop.
 
 
 **5. Time Complexity**
