@@ -12,33 +12,50 @@ Note: This is a sorting example for learning Quick Sort. Real hospital triage sy
 **The program accepts:**
 
 Number of patients
+
 Patient name
+
 Patient priority/severity score
 
 
 **3. Output**
 
 The program displays the patients arranged in descending order of priority score.
+
 The patient with the highest priority score is displayed first.
 
 
 **4. Algorithm**
 
-Start.
-Create a list to store patient names and priority scores.
-Read the number of patients.
-For each patient:
+1.Start.
+
+2.Create a list to store patient names and priority scores.
+
+3.Read the number of patients.
+
+4.For each patient:
+
 Read the patient name.
+
 Read the priority/severity score.
-Store the patient details in the list.
-Select a pivot element.
-Divide the patients into two groups:
+
+5.Store the patient details in the list.
+
+6.Select a pivot element.
+
+7.Divide the patients into two groups:
+
 Patients with scores greater than the pivot.
+
 Patients with scores smaller than the pivot.
+
 Recursively apply Quick Sort to both groups.
+
 Combine the sorted groups and the pivot.
-Display the patients in descending order of priority score.
-Stop.
+
+8.Display the patients in descending order of priority score.
+
+9.Stop.
 
 
 **5. Time Complexity**
