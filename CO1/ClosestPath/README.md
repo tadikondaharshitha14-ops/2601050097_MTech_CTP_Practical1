@@ -48,13 +48,21 @@ Distance of the nearest taxi from the customer
 5.For each taxi:
 
 Read the taxi name.
+
 Read the taxi's coordinates (x, y).
+
 Calculate the distance between the customer and the taxi using:
+
 Distance = √((x₂ - x₁)² + (y₂ - y₁)²)
+
 Store the calculated distance.
+
 Compare the distances of all available taxis.
+
 Find the taxi having the minimum distance.
+
 Display the distance of each taxi.
+
 Display the name and distance of the nearest taxi.
 
 6.Stop.
