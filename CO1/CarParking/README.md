@@ -12,8 +12,11 @@ To develop a Python-based Parking Management System for a parking area with 100 
 
 
 Menu choice
+
 Vehicle number
+
 Parking duration in hours
+
 Parking charge per hour
 
 **The menu options are:**
