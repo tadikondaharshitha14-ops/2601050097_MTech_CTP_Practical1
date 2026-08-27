@@ -30,25 +30,34 @@ The location/position of the book if it exists
 
 **4. Algorithm**
 
-Start.
-Set the total number of books to 10,00,000.
-Set the book number to be searched as 75,000.
-Set low = 1 and high = 10,00,000.
-Find the middle position using:
+1.Start.
+
+2.Set the total number of books to 10,00,000.
+
+3.Set the book number to be searched as 75,000.
+
+4.Set low = 1 and high = 10,00,000.
+
+5.Find the middle position using:
 Middle = (Low + High) // 2
-Compare the middle book number with the required book number.
+
+6.Compare the middle book number with the required book number.
 If the middle book number is equal to 75,000:
 The book exists.
 Display the book number and its location.
-If the required book number is smaller than the middle book number:
+
+7.If the required book number is smaller than the middle book number:
 Search in the left half.
 Set high = mid - 1.
-If the required book number is greater than the middle book number:
+
+8.If the required book number is greater than the middle book number:
 Search in the right half.
 Set low = mid + 1.
-Repeat the search until the book is found or low > high.
+
+9.Repeat the search until the book is found or low > high.
 If low > high, display "Book does not exist."
-Stop.
+
+10.Stop.
 
 
 **5. Time Complexity**
