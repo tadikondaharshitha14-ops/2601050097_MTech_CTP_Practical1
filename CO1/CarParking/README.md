@@ -11,21 +11,25 @@ To develop a Python-based Parking Management System for a parking area with 100 
 **The program accepts:**
 
 
-Menu choice
+1.Menu choice
 
-Vehicle number
+2.Vehicle number
 
-Parking duration in hours
+3.Parking duration in hours
 
-Parking charge per hour
+4.Parking charge per hour
 
 **The menu options are:**
 
 
 1 – Show Available Slots
+
 2 – Park Vehicle
+
 3 – Release Vehicle
+
 4 – Calculate Parking Charge
+
 5 – Exit
 
 
