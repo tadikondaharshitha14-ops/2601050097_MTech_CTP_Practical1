@@ -53,13 +53,13 @@ Available Slots = Total Slots − Occupied Slots
 **4. Algorithm**
 
 
-Start.
+1.Start.
 
-Set the total number of parking slots to 100.
+2.Set the total number of parking slots to 100.
 
-Create an empty dictionary to store vehicle and parking slot details.
+3.Create an empty dictionary to store vehicle and parking slot details.
 
-Display the parking system menu.
+4.Display the parking system menu.
 
 
 **Read the user's choice.**
@@ -117,7 +117,7 @@ If an invalid choice is entered, display "Invalid choice."
 
 Repeat the menu until the user selects the Exit option.
 
-Stop.
+5.Stop.
 
 
 **5. Time Complexity**
