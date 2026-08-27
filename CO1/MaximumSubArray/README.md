@@ -41,18 +41,22 @@ The continuous period that produces the maximum profit
 6.Start traversing the array from the second day.
 
 7.For each day's profit/loss:
+
 Add the current value to current_sum.
+
 Compare the current value with current_sum.
+
 If the current value is greater, start a new subarray from the current day.
+
 Update maximum_sum whenever current_sum becomes greater than the previous maximum.
 
 8.Keep track of the starting and ending positions of the maximum subarray.
 
-9.10.After checking all days, display the maximum continuous profit.
+9.After checking all days, display the maximum continuous profit.
 
-11.Display the corresponding profitable period.
+10.Display the corresponding profitable period.
 
-12.Stop.
+11.Stop.
 
 
 **5. Time Complexity**
