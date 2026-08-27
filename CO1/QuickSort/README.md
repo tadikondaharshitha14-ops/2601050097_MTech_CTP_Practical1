@@ -9,6 +9,7 @@ Note: This is a sorting example for learning Quick Sort. Real hospital triage sy
 
 **2. Input**
 
+
 **The program accepts:**
 
 Number of patients
