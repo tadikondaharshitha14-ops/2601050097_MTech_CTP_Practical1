@@ -30,11 +30,16 @@ Distance of the nearest taxi from the customer
 
 **4. Algorithm**
 
-Start.
-Read the customer's coordinates (x, y).
-Read the number of available taxis.
-Create a list to store taxi names and their coordinates.
-For each taxi:
+1.Start.
+
+2.Read the customer's coordinates (x, y).
+
+3.Read the number of available taxis.
+
+4.Create a list to store taxi names and their coordinates.
+
+5.For each taxi:
+
 Read the taxi name.
 Read the taxi's coordinates (x, y).
 Calculate the distance between the customer and the taxi using:
@@ -44,7 +49,8 @@ Compare the distances of all available taxis.
 Find the taxi having the minimum distance.
 Display the distance of each taxi.
 Display the name and distance of the nearest taxi.
-Stop.
+
+6.Stop.
 
 
 **5. Time Complexity**
