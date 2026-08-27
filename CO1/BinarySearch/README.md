@@ -11,11 +11,15 @@ To develop a Python-based library book search system that searches for a particu
 **The program accepts:**
 
 Total number of books
+
 Book numbers arranged in increasing order
+
 Book number to be searched
 
 For this problem:
+
 Total number of books = 10,00,000
+
 Book number to be searched = 75,000
 
 
@@ -24,7 +28,9 @@ Book number to be searched = 75,000
 **The program displays:**
 
 Whether the required book exists or not
+
 The book number if it exists
+
 The location/position of the book if it exists
 
 
