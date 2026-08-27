@@ -28,21 +28,31 @@ The continuous period that produces the maximum profit
 
 **4. Algorithm**
 
-Start.
-Read the number of days.
-Read the profit or loss for each day.
-Store the daily values in an array.
-Initialize current_sum and maximum_sum with the first value.
-Start traversing the array from the second day.
-For each day's profit/loss:
+1.Start.
+
+2.Read the number of days.
+
+3.Read the profit or loss for each day.
+
+4.Store the daily values in an array.
+
+5.Initialize current_sum and maximum_sum with the first value.
+
+6.Start traversing the array from the second day.
+
+7.For each day's profit/loss:
 Add the current value to current_sum.
 Compare the current value with current_sum.
 If the current value is greater, start a new subarray from the current day.
 Update maximum_sum whenever current_sum becomes greater than the previous maximum.
-Keep track of the starting and ending positions of the maximum subarray.
-After checking all days, display the maximum continuous profit.
-Display the corresponding profitable period.
-Stop.
+
+8.Keep track of the starting and ending positions of the maximum subarray.
+
+9.10.After checking all days, display the maximum continuous profit.
+
+11.Display the corresponding profitable period.
+
+12.Stop.
 
 
 **5. Time Complexity**
