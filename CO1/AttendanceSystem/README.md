@@ -34,19 +34,23 @@ List of students whose attendance is below 75%
 
 **4. Algorithm**
 
-Start.
+1.Start.
 
-Create an empty list to store student details.
+2.Create an empty list to store student details.
 
-Read the number of students.
+3.Read the number of students.
 
-For each student:
+4.For each student:
 
 Read the student's name.
+
 Read the number of classes attended.
+
 Read the total number of classes conducted.
+
 Calculate the attendance percentage using: Attendance Percentage = (Classes Attended / Total Classes Conducted) × 100
 Store the student details and calculated percentage in the list.
+
 Display the attendance percentage and status of each student.
 
 Find the student with the highest attendance by comparing the attendance percentages.
@@ -61,7 +65,7 @@ Display the students whose attendance is below 75%.
 
 If no student has attendance below 75%, display an appropriate message.
 
-Stop.
+5.Stop.
 
 
 **5. Time Complexity**
