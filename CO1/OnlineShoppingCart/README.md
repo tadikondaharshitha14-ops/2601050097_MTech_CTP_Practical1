@@ -46,7 +46,7 @@ The menu options are:
 
 **3. Output**
 
-The program displays:
+**The program displays:**
 
 Products added to the shopping cart
 
@@ -145,15 +145,15 @@ Display the final payable amount.
 
 **If the choice is 8:**
 
-4.Display the exit message.
+Display the exit message.
 
-5.Stop the program.
+Stop the program.
 
-6.If an invalid choice is entered, display an appropriate error message.
+If an invalid choice is entered, display an appropriate error message.
 
-7.Repeat the menu until the user chooses the Exit option.
+Repeat the menu until the user chooses the Exit option.
 
-8.Stop.
+5.Stop.
 
 
 **5. Time Complexity**
