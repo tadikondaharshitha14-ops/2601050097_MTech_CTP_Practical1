@@ -17,7 +17,7 @@ To develop a Python-based Parking Management System for a parking area with 100 
 
 3.Parking duration in hours
 
-4.Parking charge per hour
+4.Parking charge per hour 
 
 **The menu options are:**
 
