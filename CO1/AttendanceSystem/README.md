@@ -79,4 +79,6 @@ O(n)
 
 Where n is the number of students.
 
-The program performs several separate loops over the list of students. Since these loops run sequentially, the overall time complexity remains O(n).
+The program performs several separate loops over the list of students. 
+
+Since these loops run sequentially, the overall time complexity remains O(n).
