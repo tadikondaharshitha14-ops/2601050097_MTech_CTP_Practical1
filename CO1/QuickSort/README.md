@@ -4,26 +4,23 @@
 
 To develop a Python-based Hospital Patient Priority System that arranges patients according to their priority or severity score in descending order. Patients with higher priority scores are displayed first.
 
-Note: This is a sorting example for learning Quick Sort. Real hospital triage systems use medically validated clinical rules rather than a simple numerical score.
-
-
 **2. Input**
 
 
 **The program accepts:**
 
-Number of patients
+1.Number of patients
 
-Patient name
+2.Patient name
 
-Patient priority/severity score
+3.Patient priority/severity score
 
 
 **3. Output**
 
-The program displays the patients arranged in descending order of priority score.
+1.The program displays the patients arranged in descending order of priority score.
 
-The patient with the highest priority score is displayed first.
+2.The patient with the highest priority score is displayed first.
 
 
 **4. Algorithm**
@@ -65,4 +62,6 @@ Average Case: O(n log n)
 
 Where n is the number of patients.
 
-Quick Sort divides the list into smaller partitions and recursively sorts them. On average, the list is divided reasonably evenly, resulting in O(n log n) time complexity.
+Quick Sort divides the list into smaller partitions and recursively sorts them.
+
+On average, the list is divided reasonably evenly, resulting in O(n log n) time complexity.
