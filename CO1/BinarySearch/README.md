@@ -48,19 +48,27 @@ The location/position of the book if it exists
 Middle = (Low + High) // 2
 
 6.Compare the middle book number with the required book number.
+
 If the middle book number is equal to 75,000:
+
 The book exists.
+
 Display the book number and its location.
 
 7.If the required book number is smaller than the middle book number:
+
 Search in the left half.
+
 Set high = mid - 1.
 
 8.If the required book number is greater than the middle book number:
+
 Search in the right half.
+
 Set low = mid + 1.
 
 9.Repeat the search until the book is found or low > high.
+
 If low > high, display "Book does not exist."
 
 10.Stop.
