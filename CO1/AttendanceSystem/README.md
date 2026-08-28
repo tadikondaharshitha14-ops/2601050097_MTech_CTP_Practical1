@@ -9,32 +9,32 @@ To develop a Python-based attendance analysis system that calculates the attenda
 
 **The program accepts:**
 
-Number of students
+1.Number of students
 
-Student name
+2.Student name
 
-Number of classes attended
+3.Number of classes attended
 
-Total number of classes conducted
+4.Total number of classes conducted
 
 
 **3. Output**
 
 **The program displays:**
 
-Attendance percentage of each student
+1.Attendance percentage of each student
 
-Attendance status
+2.Attendance status
 
-Below 75%
+3.Below 75%
 
-Eligible
+4.Eligible
 
-Student with the highest attendance
+5.Student with the highest attendance
 
-Class average attendance
+6.Class average attendance
 
-List of students whose attendance is below 75%
+7.List of students whose attendance is below 75%
 
 
 **4. Algorithm**
