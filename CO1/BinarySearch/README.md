@@ -10,28 +10,28 @@ To develop a Python-based library book search system that searches for a particu
 
 **The program accepts:**
 
-Total number of books
+1.Total number of books
 
-Book numbers arranged in increasing order
+2.Book numbers arranged in increasing order
 
-Book number to be searched
+3.Book number to be searched
 
-For this problem:
+4.For this problem:
 
-Total number of books = 10,00,000
+5.Total number of books = 10,00,000
 
-Book number to be searched = 75,000
+6.Book number to be searched = 75,000
 
 
 **3. Output**
 
 **The program displays:**
 
-Whether the required book exists or not
+1.Whether the required book exists or not
 
-The book number if it exists
+2.The book number if it exists
 
-The location/position of the book if it exists
+3.The location/position of the book if it exists
 
 
 **4. Algorithm**
@@ -45,6 +45,7 @@ The location/position of the book if it exists
 4.Set low = 1 and high = 10,00,000.
 
 5.Find the middle position using:
+
 Middle = (Low + High) // 2
 
 6.Compare the middle book number with the required book number.
