@@ -65,6 +65,7 @@ So, by observing the temperatures, take the last temperature as maximum temperat
 
 Maximum Temperature = 39°C
 
+
 **Algorithm:**
 
 **Steps:**
@@ -95,6 +96,7 @@ Right half = mid + 1 to high
 8) After sorting, take the last element as the maximum temperature.
 
 9) Return the maximum temperature.
+
 
 **PYTHON IMPLEMENTATION:**
 
@@ -140,6 +142,7 @@ print("Sorted temperatures:", sorted_temperatures)
 
 print("Maximum temperature:", maximum_temperature, "°C")
 
+
 **Output:**
 
 Temperature readings: [32, 28, 35, 31, 39, 36, 30, 34]
@@ -147,6 +150,7 @@ Temperature readings: [32, 28, 35, 31, 39, 36, 30, 34]
 Sorted temperatures: [28, 30, 31, 32, 34, 35, 36, 39]
 
 Maximum temperature: 39 °C
+
 
 **Time Complexity**
 
