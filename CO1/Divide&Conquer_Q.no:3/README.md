@@ -98,25 +98,17 @@ Right half = mid + 1 to high
 
 **PYTHON IMPLEMENTATION:**
 
-# Merge Sort to find Maximum Temperature
-
 def merge_sort(arr):
-
-    # Base case
     
     if len(arr) <= 1:
     
         return arr
-
-    # Divide
     
     mid = len(arr) // 2
 
     left = merge_sort(arr[:mid])
     
     right = merge_sort(arr[mid:])
-
-    # Merge
     
     result = []
 
@@ -136,16 +128,9 @@ def merge_sort(arr):
 
     return result
 
-
-# Temperature readings
-
 temperatures = [32, 28, 35, 31, 39, 36, 30, 34]
 
-# Sort the temperatures
-
 sorted_temperatures = merge_sort(temperatures)
-
-# Maximum temperature is the last element
 
 maximum_temperature = sorted_temperatures[-1]
 
