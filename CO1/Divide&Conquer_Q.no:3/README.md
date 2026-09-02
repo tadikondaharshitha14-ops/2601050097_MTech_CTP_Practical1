@@ -22,5 +22,15 @@ It works in the Three basic steps:
 
 *Combine
 
+EXAMPLE:
+
+Imagine a weather station records the temperature for 8 days.
+
+Temperature Readings:
+
+[32, 28, 35, 31, 39, 36, 30, 34]
+
+Now , divide the given temperature readings into two halfs like left half and right half.
+
 
 
